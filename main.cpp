@@ -47,7 +47,7 @@ struct elemen {
        }
      }
      
-     void tampil ()
+     void menu ()
      {
        cout<<"\nStack :\n";
        elemen *help =  TOP;
@@ -68,16 +68,16 @@ int main ()
     system ("CLS");
     cout<<"````````````````````````````````````````"<<endl;
     cout<<"Program Stack dengan konsep Linked List"<<endl<<endl;
-    cout<<"Nama : Anisa Raden<<endl;
+    cout<<"Nama : Anisa Raden"<<endl;
     cout<<"NPM : 1817051007"<<endl<<endl;;
     cout<<"````````````````````````````````````````"<<endl;
     
     menu () ;
     cout<<endl<<"Menu : "<<endl;
     cout<<"\n1. Insert Stack"<<endl;
-    cout<<"2. Delete Stack<<endl;
+    cout<<"2. Delete Stack"<<endl;
     cout<<"3. Get Top"<<endl;
-    cout<<"4. Quit<<endl<<endl;
+    cout<<"4. Quit"<<endl<<endl;
     cout<<"Pilih : ";
     cin>>pilih;
     cout<<endl;
